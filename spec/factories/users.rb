@@ -7,3 +7,11 @@ FactoryBot.define do
     password_confirmation {password}
   end
 end
+
+#Faker
+#毎回違うデータを作ってくれる
+
+# チャット機能が動いているかのテストをする
+# user1 = FactoryBot.create(:user)
+# user2 = FactoryBot.create(:user)
+# emailにFakerを使っていなければuser2が登録できない
